@@ -1,6 +1,6 @@
-# coursepptexplainer
+# courseexplainer
 
-`coursepptexplainer` is a Codex skill for explaining course PPTs, PDF lecture files, lecture slides, screenshots, notes, and textbook excerpts in a detailed teacher-like style.
+`courseexplainer` is a Codex skill for explaining course PPTs, PDF lecture files, lecture slides, screenshots, notes, and textbook excerpts in a detailed teacher-like style.
 
 It is designed for students who want more than direct translation. The skill explains the logic behind the material, highlights important academic terms in both English and Chinese, points out common mistakes, and ends with transfer practice questions.
 
@@ -33,13 +33,13 @@ Clone this repository into your Codex skills folder.
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/Allenli1233/coursepptexplainer.git "$env:USERPROFILE\.codex\skills\coursepptexplainer"
+git clone https://github.com/Allenli1233/courseexplainer.git "$env:USERPROFILE\.codex\skills\courseexplainer"
 ```
 
 ### macOS or Linux
 
 ```bash
-git clone https://github.com/Allenli1233/coursepptexplainer.git ~/.codex/skills/coursepptexplainer
+git clone https://github.com/Allenli1233/courseexplainer.git ~/.codex/skills/courseexplainer
 ```
 
 After installation, start a new Codex chat so the skill list can refresh.
@@ -49,19 +49,19 @@ After installation, start a new Codex chat so the skill list can refresh.
 You can call the skill directly:
 
 ```text
-Use coursepptexplainer to explain this PPT.
+Use courseexplainer to explain this PPT.
 ```
 
 Or in Chinese:
 
 ```text
-用 coursepptexplainer 帮我讲这个 PPT。
+用 courseexplainer 帮我讲这个 PPT。
 ```
 
 For PDF lecture files:
 
 ```text
-用 coursepptexplainer 帮我讲这个 PDF 课件，先讲第 1-10 页。
+用 courseexplainer 帮我讲这个 PDF 课件，先讲第 1-10 页。
 ```
 
 You can also use a natural request:
@@ -97,11 +97,11 @@ Answer:
 ## Example Prompt
 
 ```text
-用 coursepptexplainer 帮我讲解这几页 ECO102 PPT。请重点解释图表、公式和考试可能会考的地方。
+用 courseexplainer 帮我讲解这几页 ECO102 PPT。请重点解释图表、公式和考试可能会考的地方。
 ```
 
 ```text
-用 coursepptexplainer 帮我讲解这个 ECO102 PDF lecture。请按页码顺序分段讲，不要只翻译原文。
+用 courseexplainer 帮我讲解这个 ECO102 PDF lecture。请按页码顺序分段讲，不要只翻译原文。
 ```
 
 ## Skill File

@@ -1,9 +1,9 @@
 ---
-name: coursepptexplainer
+name: courseexplainer
 description: Use when the user wants detailed, teacher-style explanations of course PPTs, PDF lecture files, lecture slides, notes, screenshots, or textbook excerpts. Explain mostly in Chinese, emphasize important academic terms in English and Chinese, add reflection, summaries, common mistakes, and English practice questions with English answers followed by Chinese explanations.
 ---
 
-# Course PPT Explainer
+# Course Explainer
 
 Use this skill when the user asks for help understanding course PPTs, PDF lecture files, lecture slides, screenshots, lecture notes, textbook excerpts, or similar course materials.
 
