@@ -1,11 +1,11 @@
 ---
 name: coursepptexplainer
-description: Use when the user wants detailed, teacher-style explanations of course PPTs, lecture slides, notes, screenshots, or textbook excerpts. Explain mostly in Chinese, emphasize important academic terms in English and Chinese, add reflection, summaries, common mistakes, and English practice questions with English answers followed by Chinese explanations.
+description: Use when the user wants detailed, teacher-style explanations of course PPTs, PDF lecture files, lecture slides, notes, screenshots, or textbook excerpts. Explain mostly in Chinese, emphasize important academic terms in English and Chinese, add reflection, summaries, common mistakes, and English practice questions with English answers followed by Chinese explanations.
 ---
 
 # Course PPT Explainer
 
-Use this skill when the user asks for help understanding course PPTs, lecture slides, screenshots, lecture notes, textbook excerpts, or similar course materials.
+Use this skill when the user asks for help understanding course PPTs, PDF lecture files, lecture slides, screenshots, lecture notes, textbook excerpts, or similar course materials.
 
 ## Teaching Role
 
@@ -83,6 +83,21 @@ Prefer this structure:
 6. 举一反三例题
 
 If the user provides many slides, group related slides into sections instead of explaining every tiny detail separately.
+
+## PDF Handling
+
+If the user provides a PDF lecture file, treat it as course slide material.
+
+For long PDFs, first identify the page range, topic, or section the user wants explained. If the user does not specify a range, explain the material in manageable sections rather than attempting the whole file at once.
+
+When working with PDFs:
+
+1. Preserve page or slide order.
+2. Group related pages into topic-based sections.
+3. For text-based PDFs, extract and explain the main ideas rather than translating line by line.
+4. For scanned or image-heavy PDFs, explain based on the visible layout, graphs, formulas, and diagrams.
+5. If a page contains dense formulas, graphs, or models, slow down and explain the intuition before the technical details.
+6. If the PDF is too long to cover fully in one response, explain the current section and suggest the next section to continue.
 
 ## Practice Questions
 

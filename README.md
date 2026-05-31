@@ -1,6 +1,6 @@
 # coursepptexplainer
 
-`coursepptexplainer` is a Codex skill for explaining course PPTs, lecture slides, screenshots, notes, and textbook excerpts in a detailed teacher-like style.
+`coursepptexplainer` is a Codex skill for explaining course PPTs, PDF lecture files, lecture slides, screenshots, notes, and textbook excerpts in a detailed teacher-like style.
 
 It is designed for students who want more than direct translation. The skill explains the logic behind the material, highlights important academic terms in both English and Chinese, points out common mistakes, and ends with transfer practice questions.
 
@@ -19,6 +19,7 @@ When used with a course PPT or lecture material, this skill asks Codex to:
 ## Best For
 
 - course PPT explanation
+- PDF lecture file explanation
 - lecture slide review
 - screenshot-based course questions
 - textbook excerpt explanation
@@ -57,6 +58,12 @@ Or in Chinese:
 用 coursepptexplainer 帮我讲这个 PPT。
 ```
 
+For PDF lecture files:
+
+```text
+用 coursepptexplainer 帮我讲这个 PDF 课件，先讲第 1-10 页。
+```
+
 You can also use a natural request:
 
 ```text
@@ -91,6 +98,10 @@ Answer:
 
 ```text
 用 coursepptexplainer 帮我讲解这几页 ECO102 PPT。请重点解释图表、公式和考试可能会考的地方。
+```
+
+```text
+用 coursepptexplainer 帮我讲解这个 ECO102 PDF lecture。请按页码顺序分段讲，不要只翻译原文。
 ```
 
 ## Skill File
